@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Assembly>RevitAddin.dll</Assembly>
+    <ClientId>00000000-0000-0000-0000-000000000000</ClientId>
+    <FullClassName>RevitAddin.Command</FullClassName>
+    <Text>Sample Command</Text>
+    <Description>Sample command description</Description>
+    <VendorId>ADSK</VendorId>
+    <VendorDescription>Autodesk, www.autodesk.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>RevitAddin</Name>
+    <Assembly>RevitAddin.dll</Assembly>
+    <ClientId>00000000-0000-0000-0000-000000000001</ClientId>
+    <FullClassName>RevitAddin.App</FullClassName>
+    <VendorId>ADSK</VendorId>
+    <VendorDescription>Autodesk, www.autodesk.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
